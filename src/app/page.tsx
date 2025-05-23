@@ -1,6 +1,4 @@
-"use client";
-
-import Link from "next/link";
+"use client"
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Home() {
@@ -10,7 +8,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4 relative">
-      <a href="#" className="absolute top-[1rem] left-[50%] transform -translate-x-1/2  sm:top-[20%]">
+      <a href="#" className="absolute top-[1rem] left-[50%] transform -translate-x-1/2  sm:top-[20%] md:top-[10%]">
         <img src="/img/logo.svg" alt="logo" className="w-[250px] h-auto cursour-pointer" />
       </a>
       <section className="text-center  !pr-[20px] !pl-[20px]">
