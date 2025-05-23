@@ -15,11 +15,13 @@ export default function Home() {
         <h1 className="text-6xl md:text-8xl font-bold mb-10 md:mb-16">
           COMING SOON
         </h1>
-        <button 
-          onClick={() => {window.location.href = "mailto:admin@suimarket.io"}}
-          className="w-full text-[28px] md:w-1/2 mb-8 md:mb-12 mx-auto bg-gradient-to-r from-green-300 to-blue-300 text-white font-semibold transition-all duration-300 hover:bg-white hover:!text-black rounded-[8px]">
-          Contact us
-        </button>
+        <a href="mailto:admin@suimarket.io">
+          <button
+            className="w-full text-[28px] md:w-1/2 mb-8 md:mb-12 mx-auto bg-gradient-to-r from-green-300 to-blue-300 text-white font-semibold transition-all duration-300 hover:bg-white hover:!text-black rounded-[8px]">
+            Contact us
+          </button>
+        </a>
+
         <ul className="w-full flex justify-center gap-4 md:gap-10 text-gray-500 text-lg md:text-xl">
           <li>
             <a
